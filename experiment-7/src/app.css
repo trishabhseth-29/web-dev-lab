@@ -1,0 +1,79 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f1f5f9;
+}
+
+.app {
+  max-width: 700px;
+  margin: 50px auto;
+  padding: 25px;
+  text-align: center;
+}
+
+h1 {
+  color: #1e293b;
+  margin-bottom: 10px;
+}
+
+.app p {
+  color: #64748b;
+  margin-bottom: 20px;
+}
+
+textarea {
+  width: 100%;
+  height: 120px;
+  padding: 15px;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  font-size: 16px;
+  resize: vertical;
+}
+
+button {
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 15px 5px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #1d4ed8;
+}
+
+.notes-container {
+  margin-top: 25px;
+}
+
+.note-card {
+  background: white;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  text-align: left;
+  overflow-wrap: anywhere;
+}
+
+.note-card p {
+  color: #334155;
+  white-space: pre-wrap;
+}
+
+.note-card button {
+  background-color: #dc2626;
+}
+
+.note-card button:hover {
+  background-color: #b91c1c;
+}
