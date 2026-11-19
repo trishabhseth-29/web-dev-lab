@@ -1,0 +1,103 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #e9f1ff;
+    padding: 85px 20px;
+}
+
+.hero h1 {
+    font-size: 38px;
+    font-weight: bold;
+    color: #172b4d;
+}
+
+.hero p {
+    color: #555;
+    margin: 20px 0;
+}
+
+/* Blog Cards */
+.card {
+    border: none;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+/* About Section */
+.about-section {
+    background-color: white;
+    padding: 60px 20px;
+}
+
+.about-section h2 {
+    color: #172b4d;
+    font-weight: bold;
+}
+
+.about-section h4 {
+    color: #0d6efd;
+}
+
+.about-section p,
+.about-section li {
+    color: #555;
+    line-height: 1.8;
+}
+
+.intro {
+    font-size: 17px;
+}
+
+/* Contact Form */
+.contact-form {
+    max-width: 500px;
+    margin: 25px auto;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form textarea {
+    height: 120px;
+}
+
+/* Footer */
+footer {
+    margin-top: 30px;
+}
+
+/* Mobile Responsive */
+@media (max-width: 576px) {
+    .hero h1 {
+        font-size: 27px;
+    }
+
+    .hero {
+        padding: 55px 15px;
+    }
+
+    .card-img-top {
+        height: 180px;
+    }
+}
